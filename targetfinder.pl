@@ -19,7 +19,7 @@ if ($ENV{'TMPDIR'}) {
 }
 
 # Smith-Waterman alignment programs (with threads)
-my $fasta = "ssearch35_t";
+my $fasta = "ssearch36";
 
 # Does the executable $fasta exist?
 my $exists = which($fasta);
